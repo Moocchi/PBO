@@ -62,3 +62,6 @@ Program ini melakukan operasi berikut:
 
 6. **Penggabungan Tipe**:
    - Program ini juga menunjukkan penggabungan tipe data yang berbeda, misalnya `j + y` (integer + double) dan `i * x` (integer * double).
+
+### Kesimpulan
+Program ini menunjukkan bagaimana melakukan operasi aritmatika dasar (penjumlahan, pengurangan, perkalian, pembagian, dan modulus) pada tipe data `int` dan `double`, serta bagaimana Java menangani operasi antara dua tipe data yang berbeda.
