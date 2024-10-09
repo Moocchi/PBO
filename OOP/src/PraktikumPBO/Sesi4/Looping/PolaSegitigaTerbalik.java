@@ -1,4 +1,4 @@
-package PraktikumPBO.Sesi4;
+package PraktikumPBO.Sesi4.Looping;
 
 public class PolaSegitigaTerbalik {
     public static void main(String[] args) {

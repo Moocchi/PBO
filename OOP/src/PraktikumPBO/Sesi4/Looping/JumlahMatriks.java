@@ -1,4 +1,4 @@
-package PraktikumPBO.Sesi4;
+package PraktikumPBO.Sesi4.Looping;
 
 public class JumlahMatriks {
     public static void main(String[] args) {
@@ -11,9 +11,9 @@ public class JumlahMatriks {
         int jumlah = 0;
 
         // Looping untuk menghitung jumlah elemen dalam matriks
-        for (int i = 0; i < matriks.length; i++) {
-            for (int j = 0; j < matriks[i].length; j++) {
-                jumlah += matriks[i][j];
+        for (int[] baris : matriks) {
+            for (int elemen : baris) {
+                jumlah += elemen;
             }
         }
 

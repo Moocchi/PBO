@@ -1,4 +1,4 @@
-package PraktikumPBO.Sesi4;
+package PraktikumPBO.Sesi4.IF;
 
 import java.util.Scanner;
 
