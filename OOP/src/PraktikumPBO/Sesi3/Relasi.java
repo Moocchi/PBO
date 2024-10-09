@@ -36,11 +36,11 @@ public class Relasi {
     System.out.println("Sama dengan...\n");
     System.out.println("i == j = " + (i == j));
     System.out.println("k == j = " + (k == j));
-    System.out.println("k == k = " + (k == k));
+    //System.out.println("k == k = " + (k == k));
 
     System.out.println("Tidak sama dengan...\n");
     System.out.println("i != j = " + (i != j));
     System.out.println("k != j = " + (k != j));
-    System.out.println("k != k = " + (k != k));
+    //System.out.println("k != k = " + (k != k));
     }
 }
