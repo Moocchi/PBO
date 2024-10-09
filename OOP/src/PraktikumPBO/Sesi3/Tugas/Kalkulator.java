@@ -1,4 +1,4 @@
-package PraktikumPBO.Sesi3;
+package PraktikumPBO.Sesi3.Tugas;
 
 import java.util.Scanner;
 
