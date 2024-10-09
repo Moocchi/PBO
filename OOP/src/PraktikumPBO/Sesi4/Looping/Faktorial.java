@@ -9,6 +9,7 @@ public class Faktorial {
             int angka = input.nextInt();
 
             int faktorial = 1;
+            int i = angka;
 
             // Looping untuk menghitung faktorial
             while (angka > 0) {
@@ -16,7 +17,7 @@ public class Faktorial {
                 angka--; // Kurangi dengan satu
             }
 
-            System.out.println("Faktorial dari " + angka + " adalah " + faktorial);
+            System.out.println("Faktorial dari " + i + " adalah " + faktorial);
         }
     }
 }
