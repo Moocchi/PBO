@@ -1,0 +1,39 @@
+@startuml puml
+
+interface Bonus {
+    +hitungBonus(performanceScore: double): double
+}
+
+abstract class Karyawan {
+    - nama: String
+    - id: String
+    + Karyawan(nama: String, id: String)
+    + hitungGaji(): double
+    + tampilkanInfo(): void
+}
+
+class KaryawanTetap {
+    - gajiBulanan: double
+    + KaryawanTetap(nama: String, id: String, gajiBulanan: double)
+    + hitungGaji(): double
+    + hitungBonus(performanceScore: double): double
+}
+
+class KaryawanKontrak {
+    - gajiPerJam: double
+    - jamKerja: int
+    + KaryawanKontrak(nama: String, id: String, gajiPerJam: double, jamKerja: int)
+    + hitungGaji(): double
+    + hitungBonus(performanceScore: double): double
+}
+
+class FinalMain {
+    + main(args: String[]): void
+}
+
+KaryawanKontrak --|> Karyawan
+KaryawanTetap --|> Karyawan
+KaryawanTetap ..|> Bonus
+KaryawanKontrak ..|> Bonus
+
+@enduml
