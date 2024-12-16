@@ -1,4 +1,4 @@
-package PraktikumPBO.Sesi11.LatihanSoal.Soal2;
+package PraktikumPBO.Sesi11.LatihanSoal.Soal1;
 
 public abstract class OperasiBilangan {
     protected double a, b, c;

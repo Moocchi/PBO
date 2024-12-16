@@ -1,39 +1,13 @@
 package PraktikumPBO.Sesi11.LatihanSoal.Soal1;
 
-class OperasiPembagian extends OperasiBilanganAbs {
-
+public class OperasiPembagian extends OperasiBilangan {
     @Override
-    protected void set_A(double a) {
-        this.a = a;
-    }
-
-    @Override
-    protected void set_B(double b) {
-        this.b = b;
-    }
-
-    @Override
-    protected void set_C() {
-        this.c = a / b;
-    }
-
-    @Override
-    protected double get_A() {
-        return a;
-    }
-
-    @Override
-    protected double get_B() {
-        return b;
-    }
-
-    @Override
-    protected double get_C() {
-        return c;
-    }
-
-    @Override
-    protected void tampil() {
-        System.out.println("Hasil Pembagian: " + c);
+    public void tampil() {
+        if (getB() != 0) {
+            setC(getA() / getB());
+            System.out.println("Hasil Pembagian   : " + getC());
+        } else {
+            System.out.println("Error: Pembagian oleh nol tidak diperbolehkan.");
+        }
     }
 }

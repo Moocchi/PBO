@@ -1,4 +1,4 @@
-package PraktikumPBO.Sesi11.LatihanSoal.Soal2;
+package PraktikumPBO.Sesi11.LatihanSoal.Soal1;
 
 public class Main {
     public static void main(String[] args) {

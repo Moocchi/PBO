@@ -1,4 +1,4 @@
-package PraktikumPBO.Sesi11.LatihanSoal.Soal1;
+package PraktikumPBO.Sesi11.LatihanSoal.Soal2;
 
 final class OperasiBilanganAbsCetak {
     private void cetakSemua(OperasiBilanganAbs[] OB, double a, double b) {
