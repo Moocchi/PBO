@@ -1,4 +1,4 @@
-package PraktikumPBO.Sesi12;
+package PraktikumPBO.Sesi11.StudiKasus;
 
 final public class Main {
     public static void main(String[] args) {

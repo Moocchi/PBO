@@ -1,4 +1,4 @@
-package PraktikumPBO.Sesi12;
+package PraktikumPBO.Sesi11.StudiKasus;
 
 public interface Bonus {
     
