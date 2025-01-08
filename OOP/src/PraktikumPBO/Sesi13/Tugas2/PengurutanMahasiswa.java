@@ -33,7 +33,7 @@ public class PengurutanMahasiswa {
         Queue<Mahasiswa> mahasiswaQueue = new PriorityQueue<>();
 
         // Daftar nama mahasiswa
-        String[] namaMahasiswa = {"Andi", "Budi", "Cici", "Dedi", "Eka", "Fani", "Gita", "Hendra", "Indra", "Joko"};
+        String[] namaMahasiswa = {"Andi", "Budi", "Cici", "Dedi", "Rikka", "Fani", "Gita", "Hendra", "Indra", "Joko"};
 
         // Menambahkan 10 mahasiswa dengan nilai random antara 60-100
         for (int i = 0; i < 10; i++) {
